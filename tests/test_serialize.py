@@ -109,5 +109,3 @@ def test_class():
 def test_tuple():
     t = (1, 3, 'bob')
     assert_equal(yaml.dump(t), '[1, 3, bob]\n')
-
-def test_complex():
